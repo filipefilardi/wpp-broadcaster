@@ -1,6 +1,6 @@
 # whatsapp-broadcast-crawler
 
-Crawler made with Selenium and Python to constantly receive video/audio from target and broadcast to a list of contacts.
+Crawler made with Selenium and Python to constantly receive video from target and broadcast to a list of contacts. The script only run in whatsapp web.
 
 ## Installation ##
 
@@ -17,7 +17,7 @@ Make sure your setup is working before run section.
 ## Set Up ##
 
 * Create your broadcast list in your whatasapp app (not web);
-* Go to [this line]() in `broadcast.py` and choose your target and broadcast list;
+* Go to [this line](https://github.com/filipefilardi/whatsapp-broadcast-crawler/blob/master/broadcast.py#L18) in `broadcast.py` and choose your target and broadcast list;
 
 ```
 #####################################
