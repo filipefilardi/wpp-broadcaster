@@ -31,9 +31,8 @@ self._broadcast = "broadcast list name"
 #                END                #
 #####################################
 
-* Save file and you're good to go.
-
 ```
+* Save file and you're good to go.
 
 ## Run ##
 
