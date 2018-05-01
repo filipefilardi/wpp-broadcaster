@@ -19,7 +19,7 @@ Make sure your setup is working before run section.
 * Create your broadcast list in your whatasapp app (not web);
 * Go to [this line](https://github.com/filipefilardi/whatsapp-broadcast-crawler/blob/master/broadcast.py#L18) in `broadcast.py` and choose your target and broadcast list;
 
-```
+```python
 #####################################
 #           CONFIGURATION           #
 #####################################
