@@ -1,23 +1,21 @@
 # whatsapp-broadcast-crawler
 
-Crawler made with Selenium and Python to constantly receive video from target and broadcast to a list of contacts. The script only run in whatsapp web.
+Crawler made with Selenium and Python to constantly receive video from target and broadcast to a list of contacts. The script only works with whatsapp web.
 
 ## Installation ##
 
-First you must install Selenium for python.
+Install Selenium for python.
 
 `$ pip install selenium`
 
 Check [official selenium documentation](http://selenium-python.readthedocs.io/index.html) if needed.
 
-Selenium requires a driver to interact with the choosen browser. I recommend looking in this [installation guide](http://selenium-python.readthedocs.io/installation.html) in drivers section.
-
-Make sure your setup is working before run section.
+Selenium requires a driver to interact with your browser. I recommend looking in this [installation guide](http://selenium-python.readthedocs.io/installation.html) in drivers section to install the proper driver.
 
 ## Set Up ##
 
-* Create your broadcast list in your whatasapp app (not web);
-* Go to [this line](https://github.com/filipefilardi/whatsapp-broadcast-crawler/blob/master/broadcast.py#L18) in `broadcast.py` and choose your target and broadcast list;
+* Create your broadcast list in your whatasapp mobile;
+* Add your target and broadcast list in [this line](https://github.com/filipefilardi/whatsapp-broadcast-crawler/blob/master/broadcast.py#L18).
 
 ```python
 #####################################
@@ -32,10 +30,11 @@ self._broadcast = "broadcast list name"
 #####################################
 
 ```
-* Save file and you're good to go.
 
 ## Run ##
 
 `$ python broadcast.py`
 
-Wait the loading finish and do QR CODE manually. After that, let the magic happen.
+Wait QR CODE screen appears and do it manually. After that, python will start to broadcast received target messages.
+
+Make sure you know what you're doing. All contributors of this repository are exempt for any of your actions.
