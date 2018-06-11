@@ -1,4 +1,4 @@
-# whatsapp-broadcast-crawler
+# wpp-broadcaster
 
 Crawler made with Selenium and Python to constantly receive video from target and broadcast to a list of contacts. The script only works with whatsapp web.
 
